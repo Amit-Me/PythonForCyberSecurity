@@ -53,7 +53,7 @@ print(int(a))
 # This method return starting index of the given substring 
 # It is casesensitive
 # If not found then return '-1"
-Full_name = "Jack Smithiii"
+Full_name = "Jack Smith"
 print(Full_name.find("ck"))
 
 ### To replace particular substring from a string 
@@ -63,3 +63,14 @@ print(Full_name.find("ck"))
 # .. Bydefault count is 1 and it can be ignored
 Full_name.replace("Smith","Kal",1)
 print(Full_name)
+
+
+### To split any string from whitespaces and place any thing in between them
+# Split function can take an argument which define along which character on anyother symbol
+# Split function return a list which can be stored and furthure used
+# Syntax of split is :
+
+me = "My name"
+print(me.split())
+print(me.split('a'))
+

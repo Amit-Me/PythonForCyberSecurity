@@ -62,7 +62,8 @@ print(Full_name.find("ck"))
 # .. of how much time the change will occure
 # .. Bydefault count is 1 and it can be ignored
 Full_name.replace("Smith","Kal",1)
-print(Full_name)
+print(Full_name)   # This will print name as defined because strings are immutable
+print(Full_name.replace("Smi","vi"))
 
 
 ### To split any string from whitespaces and place any thing in between them
@@ -74,3 +75,4 @@ me = "My name"
 print(me.split())
 print(me.split('a'))
 
+#
